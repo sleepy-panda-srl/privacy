@@ -47,10 +47,11 @@
   <p>The app keeps the following on your device only, in its own private storage. We cannot read it, and it is deleted when you uninstall the app:</p>
   <ul>
     <li>Your settings: sound, music, haptics, theme, language, reduce motion, color-blind friendly and high contrast.</li>
-    <li>Your best score, your streak, how many rounds you have played, whether you have seen the tutorial, and whether you have been asked to rate the app.</li>
+    <li>Your best score, your streak and the day it was last extended, how many rounds you have played and when the recent ones ended, when you installed the app, whether you have seen the tutorial, and when you were last asked to rate the app. The round and install times exist only so the app can keep ads sparse (no ad right after you install, after a very short round, or after a personal best).</li>
+    <li>Temporary sound files the app generates in its cache. They contain no information about you.</li>
     <li>Whether the "Remove ads" purchase is owned, so the app knows not to show ads.</li>
   </ul>
-  <p>The daily challenge is generated on your device from the date; the app does not contact a server to get it. "Share" opens your phone's own share sheet with a line of text; nothing is sent anywhere by us.</p>
+  <p>The daily challenge is generated on your device from the date; the app does not contact a server to get it. If you use "Share", the app hands a line of text (your score and the game's name) to your phone's own share sheet, and what happens next is up to the app you pick; nothing is sent to us.</p>
 
   <h2>3. Advertising (Google AdMob)</h2>
   <p>Unless you have bought "Remove ads", the app shows an interstitial ad after some rounds and an optional rewarded ad when you choose "Second chance". These ads are served by Google AdMob through the Google Mobile Ads SDK, which is software from Google LLC that runs inside the app.</p>
@@ -61,7 +62,8 @@
     <li>Interactions with ads: that an ad was shown, viewed or tapped, and which rewarded ad you completed.</li>
   </ul>
   <p>Google uses this data to show ads, to measure them, to prevent fraud and, where you have consented or allowed tracking, to personalize ads. Google acts as an independent controller for that processing. How Google handles the data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a>. Google is certified under the EU-US Data Privacy Framework for transfers outside the EEA.</p>
-  <p>We do not place any other ad network, tracker or analytics service in the app.</p>
+  <p><strong>Legal basis (EEA, UK, Switzerland).</strong> Personalized ads and the storing or reading of identifiers on your device happen only with your consent (GDPR Article 6(1)(a), ePrivacy rules); you can withdraw it at any time as described in section 4, which does not affect what was done before. Showing non-personalized ads, measuring them and preventing fraud rely on Google's and our legitimate interest in funding a free app and keeping ads safe (Article 6(1)(f)); you can object through the same choices. We make no decisions about you by automated means that have legal or similarly significant effects.</p>
+  <p>Google may work with the ad technology providers it lists at <a href="https://support.google.com/admob/answer/9012903">Ad technology providers</a>; the consent message in the app names the ones active for Skystack. We do not place any other ad network, tracker or analytics service in the app.</p>
 
   <h2>4. Consent and your choices</h2>
   <p><strong>EEA, UK and Switzerland.</strong> Before the first ad, the app shows a consent message (Google's User Messaging Platform). You can accept, or choose "Manage options" to decide purpose by purpose, including objecting to processing based on legitimate interest. If you do not consent to personalized ads, Google serves ads that are not based on your personal data. You can change your choice at any time from the app's Settings, under "Privacy".</p>
@@ -77,7 +79,7 @@
   <ul>
     <li>No account, sign-in, email address or name is asked for or stored.</li>
     <li>No analytics or crash-reporting service of ours runs in the app. Apple and Google may share aggregated crash and usage statistics with us only if you have opted in to that in your device settings.</li>
-    <li>No data is sold. We have no data of yours to sell; the advertising processing above is Google's.</li>
+    <li>No data is sold by us for money, and we hold no data of yours to sell. Under some US state laws, letting Google show you personalized ads can count as "sharing" personal data for cross-context behavioral advertising; section 11 explains the opt-out.</li>
     <li>No precise location, contacts, photos, microphone or camera access.</li>
   </ul>
 
@@ -85,7 +87,7 @@
   <p>Skystack is not directed at children under 13 (or the age of digital consent where you live), and we do not knowingly collect personal data from them. Ad requests are not flagged as child-directed. If you believe a child has used the app and consented to ads, contact us and we will help you remove the relevant data through Google.</p>
 
   <h2>8. Your rights</h2>
-  <p>Depending on where you live, you may have the right to access, correct, delete or receive the personal data about you, to object to or restrict its processing, to withdraw consent, and to complain to a supervisory authority (in Romania, the <a href="https://www.dataprotection.ro/">ANSPDCP</a>). Because the data in the app never leaves your device, the practical ways to exercise these rights are: uninstall the app or clear its storage to delete everything we store; use the consent and tracking choices in section 4 for advertising; and for data Google holds, use <a href="https://myadcenter.google.com/">Google's My Ad Center</a> and Google's privacy controls. For anything else, write to us at the address in section 1.</p>
+  <p>Depending on where you live, you may have the right to access, correct, delete or receive the personal data about you, to object to or restrict its processing, to withdraw consent, and to complain to a supervisory authority: in Romania the <a href="https://www.dataprotection.ro/">ANSPDCP</a>, in the UK the <a href="https://ico.org.uk/">ICO</a>, or the authority where you live. Because the data in the app never leaves your device, the practical ways to exercise these rights are: uninstall the app or clear its storage to delete everything we store; use the consent and tracking choices in section 4 for advertising; and for data Google holds, use <a href="https://myadcenter.google.com/">Google's My Ad Center</a> and Google's privacy controls. For anything else, write to us at the address in section 1; we answer within one month, and we will never treat you differently for exercising a right.</p>
 
   <h2>9. Retention and security</h2>
   <p>Data stored by the app stays on your device until you delete it or uninstall the app. Google's retention of advertising data is described in Google's privacy policy. The app talks to Google's ad servers only over encrypted connections.</p>
@@ -93,10 +95,20 @@
   <h2>10. Changes</h2>
   <p>If we change how the app handles data, we will update this page and the date at the top, and, for material changes, tell you in the app before they apply.</p>
 
+  <h2>11. California and other US states</h2>
+  <p>This section adds what state privacy laws (such as the California Consumer Privacy Act) ask us to say, for residents of states that have them.</p>
+  <ul>
+    <li><strong>Categories collected in the last 12 months</strong>, all by the Google Mobile Ads SDK and only while ads are on: identifiers (advertising identifier, IP address), internet or app activity (ads shown and tapped), and approximate location derived from the IP address. No sensitive personal information, and nothing linked to your name, because the app never asks for one.</li>
+    <li><strong>Purposes:</strong> serving and measuring ads, preventing fraud, and, with your choice, personalizing ads.</li>
+    <li><strong>Sale or sharing:</strong> we do not sell personal data for money. Personalized advertising through Google may count as "sharing" for cross-context behavioral advertising. To opt out, use the "Do not sell or share my personal information" choice the app shows where it applies, choose "Ask App Not to Track" on iOS, or turn off ad personalization in your Android or iOS settings. We do not knowingly sell or share the personal data of anyone under 16.</li>
+    <li><strong>Retention:</strong> as in section 9.</li>
+    <li><strong>Your rights:</strong> to know what we collect, to delete it, to correct it, to opt out of sale or sharing, to limit the use of sensitive data (we collect none), and not to be discriminated against for using these rights. To exercise them, write to the email in section 1; we reply within 45 days. You may use an authorized agent; we will ask the agent for proof that you allowed it.</li>
+  </ul>
+
   <h2>Data at a glance</h2>
   <table>
     <tr><th>Data</th><th>Where it goes</th><th>Why</th><th>Your control</th></tr>
-    <tr><td>Settings, scores, streak, tutorial and purchase state</td><td>Your device only</td><td>The game remembers you</td><td>Uninstall or clear storage</td></tr>
+    <tr><td>Settings, scores, streak, round and install times, tutorial and purchase state</td><td>Your device only</td><td>The game remembers you and keeps ads sparse</td><td>Uninstall or clear storage</td></tr>
     <tr><td>Advertising ID, device info, IP address, ad interactions</td><td>Google AdMob</td><td>Serving and measuring ads; personalization only with consent</td><td>Consent message, tracking prompt, OS ad settings, or buy "Remove ads"</td></tr>
     <tr><td>Payment for "Remove ads"</td><td>Apple App Store or Google Play</td><td>The purchase</td><td>Your store account</td></tr>
   </table>
