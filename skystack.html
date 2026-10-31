@@ -58,7 +58,7 @@
   <p>To serve and measure ads, the SDK may collect and send to Google:</p>
   <ul>
     <li>Your device's advertising identifier (Google Advertising ID on Android, IDFA on iOS, only if you allow tracking), and other device and app information such as model, operating system, language, time zone and the app's name and version.</li>
-    <li>On Android, the app set ID: an identifier Google Play services gives to one developer's apps on a device. Unlike the advertising ID, it has no reset in the settings; it changes when you uninstall the last of our apps or reset the phone.</li>
+    <li>An identifier shared by one developer's apps on a device: the app set ID on Android, given by Google Play services, and the identifier for vendor (IDFV) on iOS, given by Apple. Unlike the advertising ID, neither has a reset in the settings; they change when you uninstall the last of our apps or factory-reset the phone.</li>
     <li>Your IP address, from which an approximate location may be derived.</li>
     <li>How you use the app and its ads: app launches, taps, that an ad was shown, viewed or tapped, video views, and which rewarded ad you completed.</li>
     <li>Diagnostic information about how the app and the SDK perform, such as app launch time, hang rate and energy use.</li>
@@ -87,7 +87,7 @@
 
   <h2>7. Children</h2>
   <p>Skystack is not directed at children under 13 (or the age of digital consent where you live), and we do not knowingly collect personal data from them. Ad requests are not flagged as child-directed.</p>
-  <p>If you believe a child has used the app: the app itself keeps no personal data. What it stores stays on the device (section 2), and uninstalling the app deletes it. The data the ads SDK sends is held by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> (section 3), and we have no way to delete it on your behalf. The app's privacy options (Settings, "Privacy options") change the consent given for ads, and section 4 lists the other ad choices on the device; none of them deletes data already sent. For the data Google holds, use <a href="https://myadcenter.google.com/">Google's My Ad Center</a> and Google's privacy controls. If you need help with any of these, write to us at the address in section 1.</p>
+  <p>If you think a child has used the app, here is what you should know. The app itself keeps no personal data; what it stores stays on the device (section 2). The data the ads SDK sends goes to Google and is held under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> (section 3). We never receive it, so we cannot delete it for you. Where the app shows it, Settings → "Privacy options" changes the consent given for ads, and section 4 lists the other ad choices on the device; none of them deletes data already sent. For the data Google holds, use <a href="https://myadcenter.google.com/">Google's My Ad Center</a> and Google's privacy controls. If you need help with any of these, write to us at the email address in section 1.</p>
 
   <h2>8. Your rights</h2>
   <p>Depending on where you live, you may have the right to access, correct, delete or receive the personal data about you, to object to or restrict its processing, to withdraw consent, and to complain to a supervisory authority: in Romania the <a href="https://www.dataprotection.ro/">ANSPDCP</a>, in the UK the <a href="https://ico.org.uk/">ICO</a>, or the authority where you live. Because the data in the app never leaves your device, the practical ways to exercise these rights are: uninstall the app or clear its storage to delete everything we store; use the consent and tracking choices in section 4 for advertising; and for data Google holds, use <a href="https://myadcenter.google.com/">Google's My Ad Center</a> and Google's privacy controls. For anything else, write to us at the address in section 1; we answer within one month, and we will never treat you differently for exercising a right.</p>
@@ -101,7 +101,7 @@
   <h2>11. California and other US states</h2>
   <p>This section adds what state privacy laws (such as the California Consumer Privacy Act) ask us to say, for residents of states that have them.</p>
   <ul>
-    <li><strong>Categories collected in the last 12 months</strong>, all by the Google Mobile Ads SDK and only while ads are on: identifiers (advertising identifier, the app set ID on Android, IP address), internet or app activity (app launches, taps, ads shown and tapped, and diagnostic information about how the app performs), and approximate location derived from the IP address. No sensitive personal information, and nothing linked to your name, because the app never asks for one.</li>
+    <li><strong>Categories collected in the last 12 months</strong>, all by the Google Mobile Ads SDK and only while ads are on: identifiers (advertising identifier, the app set ID on Android or the IDFV on iOS, IP address), internet or app activity (app launches, taps, ads shown and tapped, and diagnostic information about how the app performs), and approximate location derived from the IP address. No sensitive personal information, and nothing linked to your name, because the app never asks for one.</li>
     <li><strong>Purposes:</strong> serving and measuring ads, analytics on how the app and the SDK perform, preventing fraud, and, with your choice, personalizing ads.</li>
     <li><strong>Sale or sharing:</strong> we do not sell personal data for money. Personalized advertising through Google may count as "sharing" for cross-context behavioral advertising. To opt out, use the "Do not sell or share my personal information" choice the app shows where it applies, choose "Ask App Not to Track" on iOS, or turn off ad personalization in your Android or iOS settings. We do not knowingly sell or share the personal data of anyone under 16.</li>
     <li><strong>Retention:</strong> as in section 9.</li>
@@ -112,7 +112,7 @@
   <table>
     <tr><th>Data</th><th>Where it goes</th><th>Why</th><th>Your control</th></tr>
     <tr><td>Settings, scores, streak, round and install times, tutorial and purchase state</td><td>Your device only</td><td>The game remembers you and keeps ads sparse</td><td>Uninstall or clear storage</td></tr>
-    <tr><td>Advertising ID, app set ID (Android), device info, IP address, app and ad interactions, diagnostics</td><td>Google AdMob</td><td>Advertising (personalization only with consent), analytics, fraud prevention</td><td>Consent message, tracking prompt, OS ad settings, or buy "Remove ads"</td></tr>
+    <tr><td>Advertising ID, app set ID (Android) or IDFV (iOS), device info, IP address, app and ad interactions, diagnostics</td><td>Google AdMob</td><td>Advertising (personalization only with consent), analytics, fraud prevention</td><td>Consent message, tracking prompt, OS ad settings, or buy "Remove ads"</td></tr>
     <tr><td>Payment for "Remove ads"</td><td>Apple App Store or Google Play</td><td>The purchase</td><td>Your store account</td></tr>
   </table>
 
